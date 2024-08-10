@@ -74,12 +74,28 @@ ollama create refine -f./refine.modelfile
 ollama run refine
 ```
 
+### Main
+```bash
+ollama pull llama3.1
+ollama create refine -f./main.modelfile
+ollama run refine
+```
+
 ### Create All
 ```bash
 ollama pull llama3.1
 ollama create notes -f./notes.modelfile
 ollama create explorer -f./explorer.modelfile
 ollama create refine -f./refine.modelfile
+ollama create main -f./main.modelfile
+```
+
+### Create All 70
+```bash
+ollama pull llama3.1:70b-instruct-q6_K
+ollama create explorer70 -f./explorer70.modelfile
+ollama create refine70 -f./refine70.modelfile
+ollama create main70 -f./main70.modelfile
 ```
 
 ## Example Use Cases
