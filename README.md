@@ -92,8 +92,9 @@ ollama create main -f./main.modelfile
 
 ### Create All 70
 ```bash
-ollama pull llama3.1:70b-instruct-q6_K
+ollama pull llama3.1:70b
 ollama create explorer70 -f./explorer70.modelfile
+ollama create xmavs70 -f./xmavs70.modelfile
 ollama create refine70 -f./refine70.modelfile
 ollama create main70 -f./main70.modelfile
 ```
