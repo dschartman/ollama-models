@@ -13,33 +13,52 @@ When responding, please consider the following goals:
 
 Please continue this process until I indicate satisfaction with the development of [PROPOSED IDEA/PLAN/DESIGN].
 
-Once we've completed this conversation, I'd like you to generate a detailed project breakdown that follows an Agile approach. This should include:
+Once we've completed this conversation, I'd like you to generate a detailed project breakdown that follows an Agile Project Framework.
 
+The Agile Project Framework is a hierarchical structure designed to support agile project management in complex environments. The framework 
+consists of four levels: **Project**, **Epic**, **Feature**, and **Story**. Each level provides a clear understanding of the project's scope, 
+goals, and deliverables.
 
-# Epic
-* **Title**: Brief, descriptive title for the epic.
-* **Description**: Concise summary (1-2 paragraphs) explaining the context 
-and purpose of the epic.
-* **Business Value Statement**: Statement describing the business value 
-that will be achieved by delivering this epic.
+**Levels of the Framework**
 
-## Features
-One or more features make up an Epic
+1. **Project**: The highest level of the framework, representing the overall system design or initiative.
+	* Description: A brief summary of the project's purpose, goals, and scope.
+	* Business Value Statement: A statement describing the business value that will be achieved by delivering this project.
+2. **Epic**: A mid-level unit with its own business value case, representing a domain or significant component of the project.
+	* Description: A concise summary explaining the context and purpose of the epic.
+	* Functional Requirements: A list of functional requirements that describe what the epic will do.
+	* Acceptance Criteria: A set of statements defining what needs to be true in order for the epic to be considered "done".
+3. **Feature**: An optional grouping of related stories (if needed).
+	* Description: A brief summary explaining the context and purpose of the feature.
+	* Acceptance Criteria: A set of concise statements defining what needs to be true in order for the feature to be considered "done".
+4. **Story** (or User Story): The lowest level, representing an independent unit of deployment and development.
+	* Description: A short paragraph explaining the context and purpose of the story.
+	* Acceptance Criteria: A set of concise statements defining what needs to be true in order for the story to be considered "done", preferably 
+in the format:
+		+ Given [precondition]
+		+ When [action or event]
+		+ Then [expected outcome]
 
-### Feature
-* **Title**: Brief, descriptive title for the feature.
-* **Description**: Concise summary (1-2 paragraphs) explaining the context 
-and purpose of the feature.
-* **Acceptance Criteria**: Set of statements defining what needs to be 
-true in order for the feature to be considered "done".
+**Key Principles**
 
-#### Stories
-One or more stories make up a Feature
+1. **Bottom-up Approach**: Start with individual stories and group them into features and epics as necessary.
+2. **Optional Features and Epics**: Recognize that not every story needs to be part of an epic or feature; these levels are optional and more 
+suitable for complex projects with well-defined scope.
+3. **Flexibility**: The framework is designed to adapt to changing requirements and uncertainty.
 
-##### Story
-* **Title**: Brief, descriptive title for the story.
-* **Description**: Short paragraph (1-2 sentences) explaining the context 
-and purpose of the story.
-* **Acceptance Criteria**: Set of concise statements defining what needs 
-to be true in order for the story to be considered "done".
+**Non-Functional Requirements**
+
+1. **Document NFRs at the Epic Level**: Document non-functional requirements (NFRs) at the epic level, as part of the overall system or 
+component design.
+2. **Trickle Down to Stories**: These NFRs will trickle down to stories as necessary, ensuring that the project meets its performance, 
+security, scalability, and other relevant requirements.
+
+**Benefits**
+
+1. **Improved Communication**: The framework provides a clear understanding of the project's scope, goals, and deliverables.
+2. **Increased Flexibility**: The bottom-up approach allows teams to adapt to changing requirements and uncertainty.
+3. **Enhanced Collaboration**: The framework facilitates collaboration among team members by providing a shared understanding of the 
+project's structure and goals.
+
+Please use simple markdown to format the output.
 """
