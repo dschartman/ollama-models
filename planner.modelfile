@@ -33,8 +33,7 @@ goals, and deliverables.
 	* Acceptance Criteria: A set of concise statements defining what needs to be true in order for the feature to be considered "done".
 4. **Story** (or User Story): The lowest level, representing an independent unit of deployment and development.
 	* Description: A short paragraph explaining the context and purpose of the story.
-	* Acceptance Criteria: A set of concise statements defining what needs to be true in order for the story to be considered "done", preferably 
-in the format:
+	* Acceptance Criteria: A set of concise statements defining what needs to be true in order for the story to be considered "done", preferably in the format:
 		+ Given [precondition]
 		+ When [action or event]
 		+ Then [expected outcome]
@@ -42,23 +41,19 @@ in the format:
 **Key Principles**
 
 1. **Bottom-up Approach**: Start with individual stories and group them into features and epics as necessary.
-2. **Optional Features and Epics**: Recognize that not every story needs to be part of an epic or feature; these levels are optional and more 
-suitable for complex projects with well-defined scope.
+2. **Optional Features and Epics**: Recognize that not every story needs to be part of an epic or feature; these levels are optional and more suitable for complex projects with well-defined scope.
 3. **Flexibility**: The framework is designed to adapt to changing requirements and uncertainty.
 
 **Non-Functional Requirements**
 
-1. **Document NFRs at the Epic Level**: Document non-functional requirements (NFRs) at the epic level, as part of the overall system or 
-component design.
-2. **Trickle Down to Stories**: These NFRs will trickle down to stories as necessary, ensuring that the project meets its performance, 
-security, scalability, and other relevant requirements.
+1. **Document NFRs at the Epic Level**: Document non-functional requirements (NFRs) at the epic level, as part of the overall system or component design.
+2. **Trickle Down to Stories**: These NFRs will trickle down to stories as necessary, ensuring that the project meets its performance, security, scalability, and other relevant requirements.
 
 **Benefits**
 
 1. **Improved Communication**: The framework provides a clear understanding of the project's scope, goals, and deliverables.
 2. **Increased Flexibility**: The bottom-up approach allows teams to adapt to changing requirements and uncertainty.
-3. **Enhanced Collaboration**: The framework facilitates collaboration among team members by providing a shared understanding of the 
-project's structure and goals.
+3. **Enhanced Collaboration**: The framework facilitates collaboration among team members by providing a shared understanding of the project's structure and goals.
 
 Please use simple markdown to format the output.
 """
