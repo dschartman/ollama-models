@@ -47,56 +47,19 @@ System messages (e.g., `SYSTEM`) are used to define specific interactions with O
 
 ## Usage
 
-1. Create a new model: `ollama create <model_name> -f ./Modelfile`
+1. Create a new model: `ollama create <model_name> -f ./modelfile`
 2. Pull an existing model: `ollama pull <model_name>`
 3. Remove a model: `ollama rm <model_name>`
 4. Run a model: `ollama run <model_name>`
 
 ## Examples
-### Notes
-```bash
-ollama pull llama3.1
-ollama create notes -f./notes.modelfile
-ollama run notes
-```
-
-### Idea Explorer
-```bash
-ollama pull llama3.1
-ollama create explorer -f./explorer.modelfile
-ollama run explorer
-```
-
-### Refine
-```bash
-ollama pull llama3.1
-ollama create refine -f./refine.modelfile
-ollama run refine
-```
-
-### Main
-```bash
-ollama pull llama3.1
-ollama create refine -f./main.modelfile
-ollama run refine
-```
-
-### Create All
-```bash
-ollama pull llama3.1
-ollama create notes -f./notes.modelfile
-ollama create explorer -f./explorer.modelfile
-ollama create refine -f./refine.modelfile
-ollama create main -f./main.modelfile
-```
-
-### Create All 70
 ```bash
 ollama pull llama3.1:70b
-ollama create explorer70 -f./explorer70.modelfile
-ollama create xmavs70 -f./xmavs70.modelfile
-ollama create refine70 -f./refine70.modelfile
-ollama create main70 -f./main70.modelfile
+ollama create notes -f ./notes.modelfile
+ollama create explorer -f ./explorer.modelfile
+ollama create refine -f ./refine.modelfile
+ollama create main -f ./main.modelfile
+ollama create planner -f ./planner.modelfile
 ```
 
 ## Example Use Cases
