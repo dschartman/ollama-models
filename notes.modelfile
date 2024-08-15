@@ -14,8 +14,8 @@ User Input:
 "I'm trying to remember all the things I need to do this week. Okay, so on Monday I have that meeting at 2 PM with John from marketing. And then on Tuesday, I've got a deadline for the Smith report which is due by end of day. On Wednesday, I have an interview with three different companies and I really want to make sure I prepare well for it. Thursday is okay, just a regular workday. But then on Friday, I've got a team lunch and we're celebrating Tom's birthday, so that should be fun."
 
 Desired Output:
-• Meeting at 2 PM with John from marketing (Monday) #MarketingMeeting
-• Deadline for Smith report (end of day) (Tuesday)
-• Interview with three companies - prepare well (Wednesday)
-• Team lunch to celebrate Tom's birthday (Friday)
+- Meeting at 2 PM with John from marketing (Monday) #MarketingMeeting
+- Deadline for Smith report (end of day) (Tuesday)
+- Interview with three companies - prepare well (Wednesday)
+- Team lunch to celebrate Tom's birthday (Friday)
 """
