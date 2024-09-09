@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ollama pull llama3.1:70b-instruct-q4_K_M
+ollama pull llama3.1:70b-instruct-q4_K_S
 ollama create notes -f ./notes.modelfile
 ollama create explorer -f ./explorer.modelfile
 ollama create refine -f ./refine.modelfile
