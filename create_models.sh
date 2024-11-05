@@ -6,3 +6,4 @@ ollama create explorer -f ./explorer.modelfile
 ollama create refine -f ./refine.modelfile
 ollama create main -f ./main.modelfile
 ollama create planner -f ./planner.modelfile
+ollama create coder -f ./coder.modelfile
